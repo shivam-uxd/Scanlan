@@ -11,33 +11,40 @@
       integrity="sha384-9ndCyUa6mYI7Brk6EYw38j3Tx0shPO+SmO2f9Lr9vY9vY7RF1T9H+gFPQXoKfoY+"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="scanlan.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
-  <link rel="stylesheet" href="scanlan.css" />
   <body>
     <section>
       <header class="header">
         <div class="image">
           <img src="image (7).png" alt="Logo" />
-          <!-- <h1 class="scanlan">SCANLAN</h1>
-          <p class="architects">ARCHITECTS</p> -->
         </div>
         <nav class="navbar">
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">STUDIO</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#studio">STUDIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
             <li><a href="#">NEWS</a></li>
           </ul>
         </nav>
       </header>
-      <div class="firstImage">
+
+      <!-- HOME SECTION -->
+      <div class="firstImage" id="home">
         <img
           src="https://res.cloudinary.com/doduzh8t4/image/upload/v1751534003/image1_irvzke.jpg"
           alt=""
         />
       </div>
-      <section class="project-section">
+
+      <!-- PROJECTS SECTION -->
+      <section class="project-section" id="projects">
         <div class="content">
           <div class="left">
             <p class="subheading">PROJECTS</p>
@@ -54,6 +61,7 @@
           </div>
         </div>
       </section>
+      
 
       <div class="firstImage">
         <img
@@ -73,12 +81,13 @@
           alt=""
         />
       </div>
-      <div class="firstImage">
+      <div class="firstImage" id="studio">
         <img
           src="https://res.cloudinary.com/doduzh8t4/image/upload/v1751534004/image5_yg1jcb.jpg"
           alt=""
         />
       </div>
+
       <section class="custom-project-section">
         <div class="custom-project-wrapper">
           <div class="description">
@@ -95,13 +104,11 @@
           </div>
         </div>
       </section>
-    </section>
-    <footer class="footer">
+
+  <section class="footer"  id="contact">
       <div class="studio-section">
         <div>
           <img src="image (7).png" alt="Logo" class="footer-logo" />
-          <!-- <h1 class="logo">SCANLAN</h1>
-          <p class="tagline">ARCHITECTS</p> -->
         </div>
         <div class="description">
           <h2>PERTH STUDIO</h2>
@@ -117,6 +124,9 @@
           </p>
         </div>
       </div>
-    </footer>
+    </section>
+    </section>
+
+  
   </body>
 </html>
